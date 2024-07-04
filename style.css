@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(107, 105, 105);
+}
+
+nav {
+  background-color: #005259;
+  color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 30% 68%;
+  column-gap: 2%;
+  padding: 0% 10px;
+}
+
+nav .array-inputs {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 10px 20px;
+}
+
+nav .array-inputs #a_size {
+  padding: 10px 0px;
+}
+
+nav .array-inputs #a_speed {
+  padding: 10px 0px;
+}
+
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 2% 0% 2% 0%;
+  font-size: 24px;
+  grid-column: span 2;
+}
+
+nav .array-inputs #a_generate:hover {
+  background-color: rgb(1, 94, 94);
+  cursor: pointer;
+}
+
+nav .header_right {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: 28px;
+  padding: 5px 0px;
+  margin: auto;
+  }
+
+nav .header_right .algos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px 0px;
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+  width: 150px;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+nav .header_right .algos button:hover {
+  background-color: rgb(1, 94, 94);
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: rgb(9, 106, 155);
+  cursor: pointer;
+}
+
+.tod {
+  align-content: center;
+}
+
+section {
+/*   background-color: rgb(212, 210, 210); */
+  display: grid;
+  grid-template-columns: 18% 64% 18%;
+}
+
+section .Complexity_Containers {
+  margin-top: 20px;
+}
+
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 10px;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+section #Info_Cont1 {
+  padding: 20% 10%;
+}
+
+section #Info_Cont1 h3 {
+  text-decoration: underline;
+}
+
+section #array_container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  margin-top: 10px;
+}
+
+section #Info_Cont2 {
+  padding: 20% 10%;
+}
+
+section #Info_Cont2 h3 {
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
+
+.absolute-gradient {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  background-image: 
+    linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+    linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+  background-size: 6rem 4rem;
+}
+
+
